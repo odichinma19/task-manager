@@ -17,3 +17,19 @@ This project demonstrates CRUD operations, SQL integration, and backend logic.
 ## ▶️ Running the App
 
 ### 1. Run the script
+
+### 2. Use the interactive menu to:
+- Add tasks  
+- View tasks  
+- Update task status  
+- Delete tasks  
+- Exit the program  
+
+## 🧠 How It Works
+- The app connects to an SQLite database named `tasks.db`
+- A `tasks` table is created automatically if it doesn't exist
+- All operations (add, view, update, delete) interact directly with the database
+- The menu runs in a loop until the user chooses to exit
+
+## 📄 License
+Open‑source and free to use.
